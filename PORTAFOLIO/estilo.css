@@ -298,3 +298,159 @@ h2{
     top:18%;
 
 }
+/*MUÑECA*/
+
+.pagina-muneca{
+
+    margin:0;
+
+    background:#101010;
+
+}
+
+/* Contenedor */
+
+.contenedor-muneca{
+
+    width:100%;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+
+}
+
+/* Imagen */
+
+.imagen-muneca{
+
+    width:80%;
+
+    max-width:900px;
+
+    border-radius:20px;
+
+    box-shadow:0 0 35px #ff4fa3;
+
+}
+
+/* volver */
+
+.volver{
+
+    position:fixed;
+
+    right:30px;
+
+    bottom:30px;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#ff4fa3;
+
+    padding:15px 30px;
+
+    border-radius:35px;
+
+    font-weight:bold;
+
+    box-shadow:0 0 18px #ff4fa3;
+
+    transition:.3s;
+
+}
+
+.volver:hover{
+
+    background:white;
+
+    color:#ff4fa3;
+
+}
+/* expediente */
+.pagina-expediente{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #121212;
+}
+
+.contenedor-expediente{
+    position: relative;
+    text-align: center;
+}
+
+.imagen-expediente{
+    width: 85%;
+    max-width: 900px;
+    border-radius: 15px;
+}
+/* contacto */
+.pagina-contacto{
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-contacto{
+    position: relative;
+}
+
+.imagen-contacto{
+    width: 900px;
+}
+
+.boton-linkedin{
+    position: absolute;
+    top: 490px;
+    left: 620px;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #ff5ca8;
+    color: white;
+    font-weight: bold;
+}
+/* link linkedin */
+.linkedin-contenedor {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.linkedin {
+    background-color: #ff4f8b;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* informacion general */
+.contenedor-informacion {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.imagen-informacion {
+    width: 80%;
+    max-width: 900px;
+    margin-top: 20px;
+}
