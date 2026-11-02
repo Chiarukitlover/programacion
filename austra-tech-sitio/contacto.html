@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto | AUSTRA TECH</title>
+<link rel="icon" href="img/logo.png">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <div class="contenedor nav">
+    <a href="index.html" class="marca"><img src="img/logo.png" alt="Logo AUSTRA TECH"> AUSTRA TECH</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">&#9776;</button>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html" class="activo">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<section class="bloque">
+  <div class="contenedor">
+    <h2 class="titulo">Contacto</h2>
+    <p style="margin-bottom:1.5rem">Contanos qué necesitás y te respondemos a la brevedad.</p>
+    <form class="formulario" id="formContacto" novalidate>
+      <div class="alerta" id="alerta"></div>
+      <div class="campo"><label for="nombre">Nombre *</label><input type="text" id="nombre" name="nombre"><div class="msg-error"></div></div>
+      <div class="campo"><label for="email">Email *</label><input type="email" id="email" name="email"><div class="msg-error"></div></div>
+      <div class="campo"><label for="telefono">Teléfono (opcional)</label><input type="tel" id="telefono" name="telefono"><div class="msg-error"></div></div>
+      <div class="campo"><label for="asunto">Asunto *</label><input type="text" id="asunto" name="asunto"><div class="msg-error"></div></div>
+      <div class="campo"><label for="mensaje">Mensaje * (mínimo 10 caracteres)</label><textarea id="mensaje" name="mensaje" rows="5"></textarea><div class="msg-error"></div></div>
+      <button type="submit" class="btn">Enviar consulta</button>
+    </form>
+  </div>
+</section>
+<footer>
+  <div class="contenedor">
+    <p><strong>AUSTRA TECH</strong> &middot; Soluciones para un mundo conectado.</p>
+    <p>Río Grande, Tierra del Fuego, Argentina &middot; Contacto@austratech.com</p>
+  </div>
+</footer>
+<script src="js/main.js"></script></body></html>
